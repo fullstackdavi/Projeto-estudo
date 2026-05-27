@@ -1,0 +1,6 @@
+{
+  "name": "Inverter Tecnologia",
+  "description": "Oficina premium de conserto de eletrônicos",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
