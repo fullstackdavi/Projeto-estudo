@@ -1,12 +1,14 @@
 import { motion } from 'motion/react';
 import { MapPin, MessageCircle, ArrowUpRight } from 'lucide-react';
+import CyberneticGridShader from './ui/cybernetic-grid-shader';
 
 export default function Contact() {
   return (
     <section id="contato" className="py-32 relative bg-[#030303] border-t border-white/5 overflow-hidden">
+      <CyberneticGridShader />
       {/* Luxury minimalist top line glow */}
-      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-4xl h-px bg-gradient-to-r from-transparent via-white/20 to-transparent opacity-50"></div>
-      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-lg h-[100px] bg-white/5 blur-[100px] rounded-full pointer-events-none"></div>
+      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-4xl h-px bg-gradient-to-r from-transparent via-white/20 to-transparent opacity-50 z-10"></div>
+      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-lg h-[100px] bg-white/5 blur-[100px] rounded-full pointer-events-none z-10"></div>
       
       <div className="max-w-7xl mx-auto px-6 md:px-12 relative z-10">
         <div className="grid lg:grid-cols-2 gap-16 lg:gap-24 items-center">
